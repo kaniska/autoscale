@@ -42,7 +42,7 @@ import org.xml.sax.SAXException;
  * 
  */
 @Controller
-@RequestMapping(value = "/service/", headers = Job1.acceptHeader)
+@RequestMapping(value = "/operation/", headers = Job1.acceptHeader)
 public class Job1 {
 	protected static final String acceptHeader = "Accept=application/json, application/xml, text/xml";
 	int opportunity = 0;

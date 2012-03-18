@@ -43,7 +43,7 @@ import com.poc.common.IJob;
  * 
  */
 @Controller
-@RequestMapping(value = "/service/", headers = Job2.acceptHeader)
+@RequestMapping(value = "/operation/", headers = Job2.acceptHeader)
 public class Job2 implements IJob{
 	protected static final String acceptHeader = "Accept=application/json, application/xml, text/xml";
 	int opportunity = 0;
